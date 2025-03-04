@@ -1,43 +1,75 @@
-# Nuxt Minimal Starter
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+# 🚀 Nuxt Minimal Starter
 
-## Setup
+Este é um projeto minimalista utilizando **Nuxt.js**, um poderoso framework para Vue.js.  
 
-Make sure to install dependencies:
+📖 Consulte a [documentação oficial do Nuxt](https://nuxt.com/docs/getting-started/introduction) para mais detalhes.
+
+---
+
+## 📌 Requisitos  
+
+Antes de começar, certifique-se de ter instalado:  
+- **Node.js** (versão recomendada: LTS)  
+- **npm** ou **yarn** (para gerenciamento de pacotes)  
+
+---
+
+## 🔧 Instalação  
+
+Clone o repositório e instale as dependências:  
 
 ```bash
-# npm
+# Clone o repositório
+git clone https://github.com/seu-usuario/seu-repositorio.git
+
+# Acesse a pasta do projeto
+cd seu-repositorio
+
+# Instale as dependências
 npm install
-
 ```
 
-## Development Server
+---
 
-Start the development server on `http://localhost:3000`:
+## 💻 Ambiente de Desenvolvimento  
+
+Para iniciar o servidor de desenvolvimento, rode:  
 
 ```bash
-# npm
 npm run dev
-
 ```
 
-## Production
+O servidor será iniciado em **http://localhost:3000/**.
 
-Build the application for production:
+---
+
+## 🚀 Construção e Produção  
+
+Para construir a aplicação para produção:  
 
 ```bash
-# npm
 npm run build
-
 ```
 
-Locally preview production build:
+Para visualizar o build de produção localmente:  
 
 ```bash
-# npm
 npm run preview
-
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+---
+
+## 📦 Deploy  
+
+Confira a documentação oficial sobre [implantação do Nuxt](https://nuxt.com/docs/getting-started/deployment) para saber como hospedar seu projeto em diversas plataformas.
+
+---
+
+## 📄 Licença  
+
+Este projeto é distribuído sob a licença MIT. Sinta-se à vontade para modificá-lo e utilizá-lo.  
+
+---
+
+✉ **Contato:** Caso tenha dúvidas ou sugestões, entre em contato pelo [LinkedIn](https://www.linkedin.com/in/samuel-miranda-71b545192/) ou contribua diretamente no repositório! 🚀

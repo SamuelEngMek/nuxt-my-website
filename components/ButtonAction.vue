@@ -1,8 +1,8 @@
 <template>
-    <div class="pt-6 text-center space-y-4">
+    <div class="pt-2 text-center space-y-2">
         <a 
             :href="link"
-            class="flex rounded-lg border border-gray-500 bg-gray-900 px-5 py-4 text-lg leading-6 font-medium shadow-md hover:shadow-xl transition ease-in-out duration-150">
+            class="flex rounded-lg border border-gray-500 bg-gray-800 px-5 py-4 text-lg leading-6 font-medium shadow-md hover:shadow-xl transition ease-in-out duration-150">
             <p class="mr-3 h-6 w-6">{{ icon }}</p>
             <p class="text-white">{{ text }}</p>
 
