@@ -45,7 +45,7 @@ npm install
 
 ## 💻 Ambiente de Desenvolvimento  
 
-Para iniciar o servidor de desenvolvimento, rode:  
+Após a instalação das dependências, você pode iniciar o servidor de desenvolvimento local. O servidor ficará escutando mudanças no código e as refletirá automaticamente no navegador. Para iniciar o servidor, execute o comando:
 
 ```bash
 npm run dev
@@ -57,17 +57,28 @@ O servidor será iniciado em **http://localhost:3000/**.
 
 ## 🚀 Construção e Produção  
 
-Para construir a aplicação para produção:  
+Para construir a aplicação para produção e gerar uma versão otimizada do seu projeto, siga os passos abaixo:  
+
+Antes de fazer o deploy da aplicação para um ambiente de produção, é necessário gerar uma versão otimizada do projeto. Isso remove arquivos e dependências não essenciais, além de realizar outras otimizações para melhorar a performance.
+
+Execute o comando abaixo para construir a aplicação para produção:
 
 ```bash
 npm run build
 ```
 
-Para visualizar o build de produção localmente:  
+Após gerar o build de produção, você pode visualizá-lo localmente antes de fazer o deploy para o servidor de produção. Para isso, execute o comando abaixo: 
 
 ```bash
 npm run preview
 ```
+
+Depois de construir a aplicação e visualizá-la localmente, você pode prosseguir para o deploy no ambiente de produção. Existem diversas opções para isso, dependendo do seu provedor de hospedagem. Por exemplo:
+
+Vercel: Utilize o fluxo de integração contínua (CI) para fazer o deploy diretamente do repositório GitHub, GitLab ou Bitbucket.
+Netlify: Similar ao Vercel, você pode conectar seu repositório ao Netlify para automação de deploy.
+DigitalOcean, AWS, ou outras nuvens: Você pode configurar o deploy manualmente utilizando serviços de hospedagem de sua escolha.
+A vantagem de fazer o deploy em plataformas como Vercel ou Netlify é que elas gerenciam automaticamente o processo de CI/CD para você, permitindo deploys rápidos com mínima configuração.
 
 ---
 
