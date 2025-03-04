@@ -32,10 +32,10 @@ Clone o repositório e instale as dependências:
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone [https://github.com/SamuelEngMek/nuxt-my-website.git](https://github.com/SamuelEngMek/nuxt-my-website.git)
 
 # Acesse a pasta do projeto
-cd seu-repositorio
+cd nuxt-my-website
 
 # Instale as dependências
 npm install
