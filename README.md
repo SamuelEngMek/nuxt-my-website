@@ -32,7 +32,7 @@ Clone o repositório e instale as dependências:
 
 ```bash
 # Clone o repositório
-git clone [https://github.com/SamuelEngMek/nuxt-my-website.git](https://github.com/SamuelEngMek/nuxt-my-website.git)
+git clone https://github.com/SamuelEngMek/nuxt-my-website.git
 
 # Acesse a pasta do projeto
 cd nuxt-my-website
