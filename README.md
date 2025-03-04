@@ -14,6 +14,17 @@ Antes de começar, certifique-se de ter instalado:
 - **npm** ou **yarn** (para gerenciamento de pacotes)  
 
 ---
+### Descrição dos Arquivos e Pastas:
+
+- **`assets/`**: Contém arquivos estáticos que são processados pelo Nuxt durante a compilação. Aqui você pode adicionar seus arquivos de estilo (CSS/SCSS), imagens, fontes, etc.
+- **`components/`**: Pasta onde você coloca os componentes Vue.js reutilizáveis que são usados dentro de suas páginas.
+- **`pages/`**: Contém as páginas principais da aplicação. O Nuxt cria automaticamente rotas com base nos arquivos dentro dessa pasta.
+- **`public/`**: Qualquer arquivo que você deseja que seja acessível diretamente via URL, como imagens ou fontes estáticas.
+- **`server/`**: Caso você esteja utilizando funcionalidades do servidor no Nuxt (como API endpoints), o código relacionado fica aqui.
+- **`.gitignore`**: Arquivo que informa ao Git quais arquivos ou pastas ele deve ignorar (geralmente arquivos de build ou de configuração local).
+- **`nuxt.config.ts`**: O arquivo de configuração principal do Nuxt.js, onde você define configurações globais, plugins, middlewares, etc.
+- **`package.json`**: Contém as dependências e scripts principais do npm. Esse arquivo é criado automaticamente pelo npm quando você inicializa o projeto.
+- **`tsconfig.json`**: Configurações do TypeScript para compilar os arquivos `.ts`.
 
 ## 🔧 Instalação  
 
