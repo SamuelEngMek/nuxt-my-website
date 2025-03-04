@@ -10,7 +10,7 @@
     <ButtonAction
     link="https://www.linkedin.com/in/samuel-miranda-71b545192/"
     icon="👨🏽‍💻"
-    text="Linkedin"
+    text="LinkedIn"
     />
 
     <ButtonAction
